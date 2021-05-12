@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{44B73DFC-4C8F-400B-81E2-C78BA7FB10FB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LinkedListAlgorithms</RootNamespace>
+    <AssemblyName>LinkedListAlgorithms</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Amazon\Class1.cs" />
+    <Compile Include="Amazon\Lc_Amzn_LinkedList.cs" />
+    <Compile Include="Geeks\AddTwoNumbers.cs" />
+    <Compile Include="Geeks\Class1.cs" />
+    <Compile Include="Geeks\FindMiddleElement.cs" />
+    <Compile Include="Geeks\FlattenBinaryTree_LinkedList.cs" />
+    <Compile Include="Geeks\IntersectionNode.cs" />
+    <Compile Include="Geeks\LinkedListCycle.cs" />
+    <Compile Include="Geeks\MergeLinkedList.cs" />
+    <Compile Include="Geeks\PairwiseSwapList.cs" />
+    <Compile Include="Geeks\PalindromeLinkedList.cs" />
+    <Compile Include="Geeks\QueueArray.cs" />
+    <Compile Include="Geeks\QueueLinkedList.cs" />
+    <Compile Include="Geeks\RemoveLoop.cs" />
+    <Compile Include="Geeks\RemoveNthFromEnd.cs" />
+    <Compile Include="Geeks\RevLinkedList.cs" />
+    <Compile Include="Geeks\Sort0s1s2sList.cs" />
+    <Compile Include="Geeks\StackLinkedList.cs" />
+    <Compile Include="Geeks\StackUsngArray.cs" />
+    <Compile Include="LinkedListNode.cs" />
+    <Compile Include="Microsoft\AddNumber2.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Facebook\" />
+    <Folder Include="General\" />
+    <Folder Include="Google\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

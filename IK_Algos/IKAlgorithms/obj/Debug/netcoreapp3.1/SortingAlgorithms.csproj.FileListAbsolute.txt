@@ -1,0 +1,13 @@
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\bin\Debug\netcoreapp3.1\SortingAlgorithms.exe
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\bin\Debug\netcoreapp3.1\SortingAlgorithms.deps.json
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\bin\Debug\netcoreapp3.1\SortingAlgorithms.runtimeconfig.json
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\bin\Debug\netcoreapp3.1\SortingAlgorithms.runtimeconfig.dev.json
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\bin\Debug\netcoreapp3.1\SortingAlgorithms.dll
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\bin\Debug\netcoreapp3.1\SortingAlgorithms.pdb
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.csprojAssemblyReference.cache
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.csproj.CoreCompileInputs.cache
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.AssemblyInfoInputs.cache
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.AssemblyInfo.cs
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.dll
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.pdb
+D:\Raj\InterViewPractice\Algorithms\Algorithms_Part2\SortingAlgorithms\SortingAlgorithms\obj\Debug\netcoreapp3.1\SortingAlgorithms.genruntimeconfig.cache
