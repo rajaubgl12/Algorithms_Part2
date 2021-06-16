@@ -66,6 +66,7 @@
     <Folder Include="Facebook\" />
     <Folder Include="General\" />
     <Folder Include="Google\" />
+    <Folder Include="GraphAlg\" />
     <Folder Include="Leetcode\" />
     <Folder Include="Microsoft\" />
   </ItemGroup>

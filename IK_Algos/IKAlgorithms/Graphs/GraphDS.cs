@@ -91,6 +91,6 @@ namespace IK_Algorithms.Graphs
             ConvertTree2Graph(root, root.left, graph);
             ConvertTree2Graph(root, root.right, graph);
         }
-    }
+    }   
 
 }

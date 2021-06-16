@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -43,9 +44,10 @@ namespace GeeksForGeeksRevision.ArraysStrings
                 else dic.Add(w, 1);
             }
             CustComparer objComp = new CustComparer();
-            
+
 
             var sortedDic = dic.OrderBy(x => x, objComp);
+            //var sortedDic = dic.OrderBy(x => x.Value-x.Value==0?x.Key.CompareTo(x.Key):x.Value.CompareTo(x.Value));
 
             var ret = new List<string>();
             foreach (var item in sortedDic)
@@ -54,6 +56,23 @@ namespace GeeksForGeeksRevision.ArraysStrings
                 if (ret.Count == k) return ret;
             }
             return ret;
+        }
+
+        public IList<string> TopKFrequent2(string[] words, int k)
+        {
+
+            Dictionary<String, int> w = new Dictionary<String, int>();
+            foreach (String word in words)
+            {
+                if (w.ContainsKey(word))
+                    w[word] = w[word] += 1;
+                else
+                    w.Add(word, 1);
+            }
+          
+
+            List<KeyValuePair<String, int>> lKvp = w.ToList().OrderByDescending(x => x.Value).ThenBy(y => y.Key).ToList();
+            return new List<string>(lKvp.Select(x => x.Key).Take(k));
         }
     }
     public class CustComparer : IComparer<KeyValuePair<string, int>>

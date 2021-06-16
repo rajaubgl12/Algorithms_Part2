@@ -99,10 +99,10 @@ namespace GeeksForGeeksRevision.General
                 }
                 
             }
-
+            Dictionary<int, int> sortedIndex = new Dictionary<int, int>();
             //var sortDict = sortedIndex.OrderByDescending(m => m.Value).ToDictionary(x=>x.Key,k=>k.Value);
-            //CustomComparer cusComp = new CustomComparer();
-            //var sortDict = sortedIndex.OrderByDescending(m => m.Key, cusComp);
+            CustomComparer cusComp = new CustomComparer();
+            var sortDict1 = sortedIndex.OrderBy((m) => m.Key - m.Key == 0 ? m.Value -m.Value : m.Key - m.Key);
 
             return null;
         }

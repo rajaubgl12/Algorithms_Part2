@@ -272,6 +272,7 @@ namespace GeeksForGeeksRevision
         private static void TestProgramMSFT()
         {
             InterviewMSFT mSFT = new InterviewMSFT();
+            LinkedList<int> lst = new LinkedList<int>();
             
         }
 
